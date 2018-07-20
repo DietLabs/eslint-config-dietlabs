@@ -1,0 +1,26 @@
+{
+  "name": "@dietlabs/eslint-config",
+  "version": "0.0.0",
+  "description": "DietLabs’s shared EsLint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DietLabs/eslint-config-dietlabs.git"
+  },
+  "keywords": [
+    "dietlabs",
+    "eslint",
+    "javascript",
+    "eslint",
+    "eslint-config"
+  ],
+  "author": "Marek Augustynowicz <marek.augustynowicz@dietlabs.pl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DietLabs/eslint-config-dietlabs/issues"
+  },
+  "homepage": "https://github.com/DietLabs/eslint-config-dietlabs#readme",
+  "dependencies": {
+    "eslint-config-airbnb": "^17.0.0"
+  }
+}
