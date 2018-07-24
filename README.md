@@ -4,7 +4,7 @@
 
 ```sh
 npm install --save-dev eslint eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
-npm install --save-dev https+git://github.com:DietLabs/eslint-config-dietlabs.git
+npm install --save-dev git://github.com:DietLabs/eslint-config-dietlabs.git
 echo '{"extends": "dietlabs"}' > .eslintrc.json
 eslint --fixup .
 ```
