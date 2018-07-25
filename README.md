@@ -5,7 +5,7 @@
 ```sh
 npm install --save-dev eslint eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
 npm install --save-dev @dietlabs/eslint-config
-echo '{"extends": "dietlabs"}' > .eslintrc.json
+echo '{"extends": "@dietlabs"}' > .eslintrc.json
 eslint --fixup .
 ```
 
