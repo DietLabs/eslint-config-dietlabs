@@ -15,10 +15,11 @@ npm install --save-dev @dietlabs/eslint-config
 echo '{"extends": "@dietlabs"}' > .eslintrc.json
 ```
 
-### Lint!
+### Add `lint-js` npm script and run it
 
 ```sh
-eslint --fixup .
+npx add-npm-scripts lint-js "eslint --fixup --ext .js,.jsx ./" --warn
+npm run lint-js
 ```
 
 ## Lint while WebPackin’
