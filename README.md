@@ -2,10 +2,22 @@
 
 ## Setup
 
+### Install package with its’ peer dependencies
+
 ```sh
 npx install-peerdeps --dev @dietlabs/eslint-config
 npm install --save-dev @dietlabs/eslint-config
+```
+
+### Use the configuration
+
+```sh
 echo '{"extends": "@dietlabs"}' > .eslintrc.json
+```
+
+### Lint!
+
+```sh
 eslint --fixup .
 ```
 
