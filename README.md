@@ -3,7 +3,7 @@
 ## Setup
 
 ```sh
-npm install --save-dev eslint eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
+npx install-peerdeps --dev @dietlabs/eslint-config
 npm install --save-dev @dietlabs/eslint-config
 echo '{"extends": "@dietlabs"}' > .eslintrc.json
 eslint --fixup .
