@@ -6,7 +6,6 @@
 
 ```sh
 npx install-peerdeps --dev @dietlabs/eslint-config
-npm install --save-dev @dietlabs/eslint-config
 ```
 
 ### Use the configuration
