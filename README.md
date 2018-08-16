@@ -4,8 +4,10 @@
 
 ### Install package with its’ peer dependencies
 
+You will use the same command to upgrade to latest version.
+
 ```sh
-npx install-peerdeps --dev @dietlabs/eslint-config
+npx install-peerdeps --dev @dietlabs/eslint-config@latest
 ```
 
 ### Use the configuration
