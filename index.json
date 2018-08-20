@@ -59,6 +59,8 @@
         "jest/no-focused-tests": "error",
         "jest/no-identical-title": "error",
         "jest/prefer-to-have-length": "warn",
-        "jest/valid-expect": "error"
+        "jest/valid-expect": "error",
+        "react/no-danger": "off",
+        "no-underscore-dangle": ["error", { "allow": ["__typename", "__REDUX_DEVTOOLS_EXTENSION_COMPOSE__"] }]
     }
 }
